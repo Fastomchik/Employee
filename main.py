@@ -71,9 +71,11 @@ while True:
             and func_programing != 4 and func_programing != 5:
         print("Защита от детей, повторите ввод")
         continue
-
-    if func_programing == 0:
+        
+    if worker == Employee:
         worker.append()
+        
+    if func_programing == 0:
         print(mylist)
 
     if func_programing == 1:
